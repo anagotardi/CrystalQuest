@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &458236677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5083454409320707622, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
+  m_PrefabInstance: {fileID: 3441049354559264710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &594529631
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +328,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 6
 --- !u!114 &1464977978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,7 +481,7 @@ MonoBehaviour:
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
-  currentChunk: {fileID: 0}
+  currentChunk: {fileID: 458236677}
   spawnedChunks: []
   maxOpDist: 0
   optimizerCooldownDur: 0
@@ -505,11 +510,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1598379593094242946, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.6
+      value: -21.53
       objectReference: {fileID: 0}
     - target: {fileID: 3990870742470048987, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2
+      value: 2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4231059339707729508, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280418529682216058, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
+      propertyPath: checkerRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280418529682216058, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
+      propertyPath: terrainChunks.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4364873352235924675, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -556,10 +573,15 @@ PrefabInstance:
       value: Pedra
       objectReference: {fileID: 0}
     - target: {fileID: 5632620390131751968, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.9
+      propertyPath: m_LocalScale.x
+      value: 4.322031
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5632620390131751968, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.95
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4280418529682216058, guid: 695a5c8d4c3c4d542b338803b40b409c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
